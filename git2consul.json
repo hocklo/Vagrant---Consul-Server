@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "repos" : [{
+    "name" : "consul_configuration",
+    "url" : "https://github.com/hocklo/git2consul.git",
+    "expand_keys": true,
+    "common_properties" : "application.properties",
+    "branches" : ["master"],
+    "hooks": [{
+      "type" : "polling",
+      "interval" : "1"
+    }]
+  }]
+}
+
